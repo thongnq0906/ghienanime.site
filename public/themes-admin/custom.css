@@ -1,0 +1,82 @@
+.app-header__logo .logo-src {
+    background: none !important;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    /* height: 100%; */
+    font-weight: bold;
+}
+.app-header__logo .logo-src a{
+    color: black;
+}
+
+.font-icon-wrapper.thoat {
+    border: navajowhite;
+    padding: 0;
+    margin: 0;
+}
+.input-custon {
+    border-radius: .25rem 0 0 .25rem;
+}
+.list-ep {/* float: left; */}
+
+.list-ep ul {
+    list-style: none;
+    /* display: inline-block; */
+    padding: 0;
+    margin: 0;
+    /* float: left; */
+}
+
+.list-ep ul li {
+    float: left;
+    width: 5%;
+    background: #212529;
+    margin: 5px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.list-ep ul a {
+    color: white;
+    /* width: 100%; */
+}
+
+.list-ep li:hover {
+    background: #f7b924;
+}
+.list-ep .active {
+    background: #f7b924;
+}
+.sotap {
+    width: 65px;
+    font-size: 12px;
+    position: relative;
+    float: left;
+    margin: 5px;
+    background: #212529;
+}
+
+.dell-ep {
+    position: absolute;
+    top: -13px;
+    right: 0;
+}
+
+.tapni a {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.tapni {
+    text-align: center;
+    padding: 5px;
+}
+
+.sotap a {}
+
+.dell-ep a {
+    color: red;
+    font-size: 16px;
+}

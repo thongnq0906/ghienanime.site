@@ -1,0 +1,106 @@
+.duongdan {
+    margin: 15px 0px;
+}
+
+.detail-post {
+    position: relative;
+    height: 229px;
+}
+
+.detail-post h4 {
+    margin: 0;
+}
+
+.detail-post a {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+}
+
+.img-post img {
+    height: 229px;
+    width: 100%;
+}
+
+a.chi-tiet-tin {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #8ac440;
+    color: white;
+    padding: 8px 21px;
+}
+
+.hic {
+    padding: 26px 0;
+    border-bottom: solid 1px #eaeaea;
+}
+
+a.chi-tiet-tin:hover {
+    background: red;
+}
+
+.content {
+    padding-bottom: 40px;
+}
+.bar-right {
+    /* background: #8ac440; */
+    /* color: white; */
+    margin-top: 26px;
+}
+
+.cate-bar {
+    background: #8ac440;
+    color: white;
+    padding: 8px 6px;
+    margin-bottom: 19px;
+}
+
+.cate-bar i {
+    padding-left: 3px;
+    padding-right: 7px;
+}
+
+.cate-bar h3 {
+    padding: 0;
+    margin: 0;
+    padding-left: 0px;
+    text-transform: uppercase;
+}
+.list-bar {
+    margin-bottom: 8px;
+}
+.imganh img {
+    height: 81px;
+    width: 100%;
+}
+
+.col-xs-6.col-sm-6.col-md-6.ca {
+    padding-left: 0;
+}
+
+.tensb h5 {
+    margin: 0;
+}
+
+
+/*mobile*/
+@media (min-width: 1200px){
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .detail-post h4 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .detail-post {
+        height: 152px;
+    }
+}
+
+@media (max-width: 576px) {
+}

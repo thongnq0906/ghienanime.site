@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+body{
+}
+img {
+    max-width: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+.img-hover {
+    transition: 0.5s all;
+    overflow: hidden;
+}
+.img-hover:hover {
+    transform: scale(1.07);
+}
+.go-top {
+    display: none;
+    position: fixed;
+    bottom: 79px;
+    right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    padding: 1em;
+    opacity: 1;
+}
+/*giohang*/
+.thanhtien {
+    border: solid 1px #e4e4e4;
+    padding: 21px;
+    color: #736d6d;
+}
+
+.thanhtien1 {
+    border-bottom: solid 1px #ece2e2;
+    padding-bottom: 20px;
+}
+
+.thanhtien2 {
+    margin-top: 20px;
+}
+
+span#TongGiaTriDonHang {
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+span.vat {
+    font-size: 10px;
+}
+
+.dathang a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background: #f7941d;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+}
+
+.dathang {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.dathang a:hover {
+    background: #39b54a;
+}
+h1.tieude {
+    text-align: center;
+    font-size: 25px;
+    /* display: inline; */
+    position: relative;
+    display: inline;
+    color: #f7941d;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+.contencs {
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.chuatiede {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+span.giadep.TongGiaTriDonHang {
+    color: red;
+    font-size: 19px;
+}
+.mauahngcc h3 {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #f7941d;
+    font-weight: bold;
+}
+
+form#myforms input {
+    /* padding-bottom: 10px; */
+    margin-bottom: 8px;
+    border-radius: 0px;
+    height: 40px;
+}
+
+form#myforms textarea {
+    border-radius: 0px;
+}
+.buttons-set button {
+    /* background: red; */
+    background: #39b54a;
+    width: 100%;
+    padding: 11px;
+    margin-top: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+/*end gio hang*/
