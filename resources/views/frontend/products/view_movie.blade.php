@@ -119,8 +119,6 @@
                             </ul>
                         </div>
                         <div class="comment">
-                            <div id="fb-root"></div>
-                            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="rm38pFpQ"></script>
                             <div class="fb-comments" data-href="{{ route('detail_product', $movie->slug) }}" data-width="100%" data-numposts="10" data-order-by="time"></div>
                         </div>
                     </div>

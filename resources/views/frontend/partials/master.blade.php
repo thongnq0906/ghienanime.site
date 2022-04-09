@@ -41,6 +41,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <!-- Mobile specific meta -->
     <meta name="format-detection" content="telephone-no">
+    <meta property="fb:app_id" content="1136512983557189" />
     <!-- CSS files -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <link rel="stylesheet" href="{{ asset('css/plugins.css') }}">
@@ -58,6 +59,8 @@
     <script src="{{ asset('js/plugins2.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
     @yield('script')
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=1136512983557189&autoLogAppEvents=1" nonce="D5FKWsCm"></script>
 
 </body>
 </html>
